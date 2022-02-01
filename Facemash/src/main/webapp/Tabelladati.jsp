@@ -7,7 +7,7 @@
 <title>Tabella</title>
 </head>
 <body>
-<% int voti[] =(int[])session.getAttribute("voti"); %> 
+<% int voti[] =(int[])session.getAttribute("Voti"); %> 
 
 <table>
 <tr><td>Nomi</td><td>Voti</td></tr>
@@ -27,6 +27,8 @@
 <tr><td>Rias Gremory</td><td><%=voti[13]%></td></tr>
 
 </table>
+
+<h3><a href="Main.jsp">Torna alla Home</a></h3>
 
 </body>
 </html>

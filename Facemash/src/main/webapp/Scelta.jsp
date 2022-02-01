@@ -19,7 +19,7 @@
 	</head>
 	
 <body>
-<% int voti[] = (int[])session.getAttribute("voti");
+<% int voti[] = (int[])session.getAttribute("Voti");
    String nome = request.getParameter("name");
 
    switch (nome){
